@@ -18,6 +18,10 @@ to pythonic list of records:
         }
     ]
 
+Reference for MEDLINE field descriptors:
+
+    https://www.nlm.nih.gov/bsd/mms/medlineelements.html
+
 ## Usage
 
 Clone the repo:
