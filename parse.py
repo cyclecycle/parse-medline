@@ -1,9 +1,16 @@
 import re
 
 def medline_parser(data, clean=True):
-    """Parse NCBI MEDLINE format string into a list of dictionaries
+    """Parse NCBI MEDLINE format string into a list of dictionaries:
 
-    Where a MEDLINE tag is used multiple times in a record, the values appear in a list in the results.
+    [
+        {
+            'PMID': 12345678,
+            ...
+        }
+    ]
+
+    Where a MEDLINE field descriptor is used multiple times in a record, the values appear in a list in the results.
 
     Arguments:
         data {string} -- MEDLINE data
