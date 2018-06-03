@@ -1,5 +1,7 @@
 # parse-medline
 
+## Overview
+
 From NCBI MEDILNE format:
 
     PMID- 14512816
@@ -16,7 +18,7 @@ to pythonic list of records:
         }
     ]
 
----
+## Usage
 
     git clone https://github.com/cyclecycle/parse-medline.git parse_medline
 
