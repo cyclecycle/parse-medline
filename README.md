@@ -18,9 +18,9 @@ to pythonic list of records:
 
 ---
 
-    git clone
+    git clone https://github.com/cyclecycle/parse-medline.git parse_medline
 
-python```
+```python
     from parse_medline import medline_parser
     
     records = medline_parser(medline_data)
